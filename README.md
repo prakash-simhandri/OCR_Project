@@ -8,5 +8,5 @@ If you're using Linux on your system, you need to install the following packages
 3. To install AWS-SDK, type `npm install aws-sdk` <br>
 
 ## Execution
-Firstly, open this required directory on your terminal, and type `nodemon ocr.js` to start the localhost server. <br>
+Firstly, open this required directory on your terminal, and type `npm install` to install the required dependencies. <br> Now type `nodemon ocr.js` to start the localhost server. <br>
 Now, go to the browser, and type http://localhost:1223/user_data to get the details from the visiting card.
