@@ -1,0 +1,16 @@
+{
+  "name": "ocr_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ocr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prakash",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-tesseract-ocr": "^0.1.0",
+    "nodemon": "^1.19.2"
+  }
+}
