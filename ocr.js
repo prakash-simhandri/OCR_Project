@@ -34,12 +34,13 @@ app.get('/user_get',(req, res)=>{
           }else{
             // console.log(data.ResultList[0]);   // get the successful response
             let user_data = data.ResultList[0].Entities
-            console.log(user_data)
+            console.log(user_data);
+            res.send(user_data);
           }
         });
     });
 })
 
 const run = app.listen(1223,()=>{
-  console.log('Whelcom. App is listening :)')
+  console.log('Welcome. App is listening :)')
 })
